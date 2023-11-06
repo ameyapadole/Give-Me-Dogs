@@ -1,0 +1,41 @@
+/* style.css */
+
+body {
+    /* Set a default background color; it will be changed dynamically by the script */
+    background-color: hsl(0, 0%, 95%);
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+    flex-direction: column; /* Stack children vertically */
+}
+
+#dog-button {
+    padding: 1em 2em; /* Add some padding */
+    font-size: 1rem; /* Set font size */
+    color: white; /* Set text color */
+    background-color: #007bff; /* Set background color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change mouse cursor on hover */
+    margin-bottom: 2rem; /* Add margin below the button */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+#dog-button:hover {
+    background-color: #0056b3; /* Change color on hover */
+}
+
+#dog-target {
+    text-align: center;
+    width: 100%; /* Ensure the div takes full width */
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* Adjust the width as needed */
+    max-width: 600px; /* Optional: to avoid very large images */
+}
