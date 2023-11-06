@@ -15,7 +15,7 @@ function addNewDoggos(){
         })
 
         .then(function (processedPromise){
-
+        doggos.innerHTML = '';
         const dogObject = JSON.parse(processedPromise);
         const img = document.createElement("img");
         img.src = dogObject.message;
